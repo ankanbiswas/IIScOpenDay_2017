@@ -1,0 +1,18 @@
+EEG Overview:
+
+Starting: EEG introduction by Agrita
+
+1. Introduction to the setup:
+   Amplifier and the recording setup
+   Cap and the gel used 
+  
+
+2. Showing the signal and its properties as described before
+
+2.  The broad aim of the experiment:
+     Whether the subject is able to control his alpha wave?
+     Bascally whether he/she able to increase and decrease the      amplitude of the alpha band or not?
+
+3.  The GUI interface and what we will be observing?
+
+4. The Demo and relevant discussion
