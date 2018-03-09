@@ -372,10 +372,12 @@ function openday_17_final_interface
                     stPowerArray = mean(rawstpower(alphaLowFreq:alphaHighFreq,analysisRange),2);
                     changeArray = stPowerArray/mean(blPowerArray) - 1;
                     quot = 100*mean(changeArray);
-                    fluct = std(stPowerArray)/mean(stPowerArray);
-                    susqut = (int64(100*(1/fluct)));
+%                     fluct = std(stPowerArray)/mean(stPowerArray);
+%                     susqut = (int64(100*(1/fluct)));
                     % show a message box
-                    msgbox(['Your relaxation quotient is ' num2str(quot) ' % and your sustenance quotient is ' num2str(susqut)], 'EEG Demo', 'help');
+%                     msgbox(['Your relaxation quotient is ' num2str(quot) ' % and your sustenance quotient is ' num2str(susqut)], 'EEG Demo', 'help');
+                    msgbox(['Your relaxation quotient is ' num2str(quot)], 'EEG Demo', 'help');
+
 %                     set(h,'Position',[160 300 700 80]);
 %                     ah = get( h, 'CurrentAxes' );
 %                     ch = get( ah, 'Children' );
